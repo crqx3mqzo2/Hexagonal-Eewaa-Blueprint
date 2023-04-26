@@ -29,14 +29,14 @@ Ejecute el API: Para ejecutar el API, ejecute la clase Application.java en su en
 
 Cree o modifique un cliente: Para crear un nuevo cliente, haga una solicitud POST a http://localhost:9090/api/clientes/create con el siguiente cuerpo de ejemplo:
 {
-   "id": 1,
-   "companyName": "Example Company",
-   "companyType": "Software",
-   "companyAddress1": "123 Main St.",
-   "companyAddress2": "Suite 456",
-   "companyPhone1": "+1 (555) 555-5555",
-   "companyPhone2": "+1 (555) 555-5556",
-   "email": "example@example.com"
+  "id": 1,
+  "companyName": "Example Company",
+  "companyType": "Software",
+  "companyAddress1": "123 Main St.",
+  "companyAddress2": "Suite 456",
+  "companyPhone1": "+1 (555) 555-5555",
+  "companyPhone2": "+1 (555) 555-5556",
+  "email": "example@example.com"
 }
 
 Para modificar un cliente existente, haga una solicitud POST a http://localhost:9090/api/clientes/modify con el mismo cuerpo de ejemplo.
