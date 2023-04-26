@@ -51,6 +51,5 @@ Este proyecto se distribuye bajo la Licencia GNU GPL v3.
 
 La Licencia GNU GPL v3 permite a los usuarios utilizar, modificar y distribuir el software, siempre y cuando se cumplan ciertas condiciones, como la inclusión de una copia de la licencia en la distribución del software y la publicación del código fuente de cualquier software derivado bajo la misma licencia.
 
-Para obtener más información sobre los términos y condiciones de la Licencia GNU GPL v3, consulte el archivo LICENSE.md en el repositorio.
 
 Si desea utilizar, modificar o distribuir este software, asegúrese de cumplir con los términos y condiciones de la Licencia GNU GPL v3.
