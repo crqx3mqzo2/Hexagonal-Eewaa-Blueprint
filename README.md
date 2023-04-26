@@ -40,7 +40,7 @@ Cree o modifique un cliente: Para crear un nuevo cliente, haga una solicitud POS
   "email": "example@example.com"
 }
 
-Para modificar un cliente existente, haga una solicitud POST a http://localhost:9090/api/clientes/modify con el mismo cuerpo de ejemplo.
+Para modificar un cliente existente, haga una solicitud POST a http://localhost:9090/api/clientes/modify con el cuerpo parecido, solo cambie un par de valores en el JSON de ejemplo.
 
 Verifique la respuesta: Después de realizar una solicitud, verifique la respuesta para asegurarse de que se haya creado o modificado el cliente correctamente.
 
