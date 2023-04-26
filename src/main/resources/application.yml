@@ -1,0 +1,15 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    password: 56B394C3C0
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_schema: db_ifra
+        format_sql: true
+    show-sql: true
