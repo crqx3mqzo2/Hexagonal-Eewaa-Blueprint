@@ -4,15 +4,16 @@ Prueba de concepto de la arquitectura Hexagonal.
 ## Estructura de Carpetas y Paquetes
 Este proyecto utiliza la arquitectura hexagonal para organizar sus componentes. A continuación se muestra una descripción de los paquetes utilizados en el proyecto:
 
-application.entrypoints.rest: Este paquete contiene las clases encargadas de exponer los endpoints de la API REST. Aquí se encuentra la capa de adaptación de entrada que conecta la capa de dominio con la capa de presentación.
-commons.utils: Este paquete contiene clases de utilidad que pueden ser utilizadas por cualquier componente del proyecto.
+- application.entrypoints.rest: Este paquete contiene las clases encargadas de exponer los endpoints de la API REST. Aquí se encuentra la capa de adaptación de entrada que conecta la capa de dominio con la capa de presentación.
+- commons.utils: Este paquete contiene clases de utilidad que pueden ser utilizadas por cualquier componente del proyecto.
 domain.adapter: Este paquete contiene las implementaciones de los adaptadores de puertos que se utilizan para comunicarse con la capa externa de la aplicación (como la base de datos, servicios externos, etc.).
-domain.dtos: Este paquete contiene los objetos de transferencia de datos (DTO) que se utilizan para transferir datos entre las distintas capas de la aplicación.
-domain.entities: Este paquete contiene las entidades de negocio que representan los objetos de dominio de la aplicación.
-domain.interfaces: Este paquete contiene las interfaces de los puertos de entrada y salida del dominio. Estas interfaces definen los métodos que pueden ser utilizados por las capas externas para interactuar con el dominio.
-domain.interfaces.repositories: Este paquete contiene las interfaces de los puertos de salida que se utilizan para comunicarse con la capa externa de persistencia (como una base de datos).
-domain.services: Este paquete contiene las implementaciones de los servicios de negocio que utilizan las entidades y objetos de valor definidos en el dominio.
-domain.services.interfaces: Este paquete contiene las interfaces de los servicios de negocio, que definen los métodos que pueden ser utilizados por otras capas de la aplicación para interactuar con el dominio.
+- domain.dtos: Este paquete contiene los objetos de transferencia de datos (DTO) que se utilizan para transferir datos entre las distintas capas de la aplicación.
+- domain.entities: Este paquete contiene las entidades de negocio que representan los objetos de dominio de la aplicación.
+- domain.interfaces: Este paquete contiene las interfaces de los puertos de entrada y salida del dominio. Estas interfaces definen los métodos que pueden ser utilizados por las capas externas para interactuar con el dominio.
+- domain.interfaces.repositories: Este paquete contiene las interfaces de los puertos de salida que se utilizan para comunicarse con la capa externa de persistencia (como una base de datos).
+- domain.services: Este paquete contiene las implementaciones de los servicios de negocio que utilizan las entidades y objetos de valor definidos en el dominio.
+- domain.services.interfaces: Este paquete contiene las interfaces de los servicios de negocio, que definen los métodos que pueden ser utilizados por otras capas de la aplicación para interactuar con el dominio.
+
 Es importante mencionar que la distribución de carpetas y paquetes en la arquitectura hexagonal no tiene una forma única y depende del desarrollador. La estructura presentada aquí es solo una de las muchas posibles.
 
 ## Requisitos de configuración
