@@ -33,7 +33,7 @@ public class ClientController {
 	}
 
 	@PostMapping("/modify")
-	public ResponseEntity<Client> modifyClient(Client client) {
+	public ResponseEntity<Client> modifyClient(@RequestBody Client client) {
 		Client modifiedClient = clienteService.updateClient(client);
 		return new ResponseEntity<>(modifiedClient, HttpStatus.OK);
 	}

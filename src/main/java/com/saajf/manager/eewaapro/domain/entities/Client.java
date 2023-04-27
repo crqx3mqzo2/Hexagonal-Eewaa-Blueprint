@@ -115,4 +115,12 @@ public class Client implements Serializable {
 		this.subscriptions = suscripciones;
 	}
 
+	@Override
+	public String toString() {
+		return "Client [id=" + id + ", companyName=" + companyName + ", companyType=" + companyType
+				+ ", companyAddress1=" + companyAddress1 + ", companyAddress2=" + companyAddress2 + ", companyPhone1="
+				+ companyPhone1 + ", companyPhone2=" + companyPhone2 + ", email=" + email + ", subscriptions="
+				+ subscriptions + "]";
+	}
+
 }

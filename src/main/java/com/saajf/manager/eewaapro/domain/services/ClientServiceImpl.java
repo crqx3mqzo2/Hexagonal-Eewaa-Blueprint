@@ -24,6 +24,7 @@ public class ClientServiceImpl implements ClientService {
 
 	@Override
 	public Client updateClient(Client updatedClient) {
+		System.out.println(updatedClient.toString());
 		Client existingClient = clientRepositoryPort.findById(updatedClient.getId())
 				.orElseThrow(() -> new RuntimeException("Cliente no encontrado"));
 
